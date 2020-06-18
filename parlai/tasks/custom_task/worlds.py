@@ -175,7 +175,7 @@ class SelfChatWorld(SelfChatBaseWorld):
     def get_contexts(self):
         random.seed()
         p = random.choice(self.contexts_data)
-	return [p[0], p[1]]
+		return [p[0], p[1]]
 
     def share(self):
         shared_data = super().share()
