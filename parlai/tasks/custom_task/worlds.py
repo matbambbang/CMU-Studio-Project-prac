@@ -180,6 +180,8 @@ class SelfChatWorld(SelfChatBaseWorld):
         random.seed()
         p = random.choice(self.contexts_data)
         print("="*80)
+        print("SelfChat world")
+        print("="*80)
         exit()
         return [p[0], p[1]]
 
