@@ -137,6 +137,10 @@ class InteractiveWorld(InteractiveBaseWorld):
     def get_contexts(self):
         random.seed()
         p = random.choice(self.contexts_data)
+        print("="*80)
+        print("Interactive World")
+        print("="*80)
+        exit()
         return p[0], p[1]
 
     def finalize_episode(self):
